@@ -19,13 +19,13 @@ function About() {
 						</button>
 					</li>
 					<li className='post'>
-						<Post header="Cat" avatar={faker.image.avatar()} image={faker.image.food()}>
+						<Post header="Cat" avatar={faker.image.avatar()} image={faker.image.avatar()}>
 							<ApprovalCard />
 						</Post>
 					
 					</li>
 					<li className='post'>
-					<Post header='Animal' avatar={faker.image.avatar()} image={faker.image.fashion()}>
+					<Post header='Animal' avatar={faker.image.avatar()} image={faker.image.avatar()}>
 						<PostFooter />
 					</Post>
 					</li>

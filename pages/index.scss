@@ -132,7 +132,8 @@ nav {
 		padding-right: 0rem !important;
 		position: fixed;
 		top: 15%;
-		right:10%;
+		left:0%;
+		z-index: 2;
 	}
 	.bg-screen{
 		height: 100vh;
@@ -166,7 +167,7 @@ nav {
 		left:5%;
 		top:20%;
 		cursor: pointer;
-		z-index: 2;
+		z-index: 4;
 	}
 	.line{
 		transition: all .5s ease-in-out;
@@ -189,7 +190,7 @@ nav {
 	}
 
 	nav {
-		z-index: 1;
+		z-index: 3;
 		justify-content:flex-start;
 		position: relative;
 	}
