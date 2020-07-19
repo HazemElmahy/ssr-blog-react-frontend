@@ -6,14 +6,16 @@ class Location extends Component{
 		super(props);
 		this.state = {latitude: null, longitude:null, errorMessage:''}
 
+		
+	}
+
+	componentDidMount(){
 		if (typeof window !== 'undefined'){
 			window.navigator.geolocation.getCurrentPosition(
 				position => {this.setState({ latitude: position.coords.latitude.toFixed(2),
 											 longitude: position.coords.longitude.toFixed(2)
 											})},
-				err => {
-					this.setState({ errorMessage: err.message})
-				}
+				err => this.setState({ errorMessage: err.message})
 			)
 		}
 	}
@@ -34,6 +36,8 @@ class Location extends Component{
 
 		)
 	}
+
+
 }
 
 export default Location

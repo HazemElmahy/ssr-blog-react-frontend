@@ -5,22 +5,28 @@ background-position: center !important;
 background-size: 100% !important; 
 background-repeat: no-repeat !important; 
 }
-nav {
+.nav-bar {
 	display: flex;
-	justify-content:center;
+	justify-content: space-around ;
 	text-align: center;
+	border:0px !important;
+	align-items: center;
 
+}
+.register{
+	padding-right:5px;
 }
 .bg-screen{
 	display: flex;
-	justify-content:center;
+	justify-content:stretch;
 	text-align: center;
-}
-.bg-screen > li {
-	padding-left: 10px;
-	padding-right: 10px;
+	position: absolute;
+	
 
+	
 }
+
+
 
 .cont {
 	padding:30px;
@@ -98,17 +104,56 @@ nav {
 
 .new-post{
 
-		float:right;
-		padding-right: 20rem !important;
-		
-		button{
-		size: 100%;
-		 	img{
-				height:80%;
-				vertical-align:middle;
-			}
+	float:right;
+	padding-right: 20rem !important;
+	
+	button{
+	size: 100%;
+	 	img{
+			height:80%;
+			vertical-align:middle;
 		}
 	}
+}
+
+.search{
+		 display: flex;
+         
+}
+.search-bar{
+	
+	background-color: #fff8 !important;
+	padding-left: 10px !important;
+	font-size: 30px !important;
+
+}
+
+.search-bar::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000a;
+}
+.search-bar:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #000a;
+   opacity:  1;
+}
+.search-bar::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000a;
+   opacity:  1;
+}
+.search-bar:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #000a;
+}
+.search-bar::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #000a;
+}
+
+.search-bar::placeholder { /* Most modern browsers support this now. */
+   color:    #000a;
+}
+
+.light-red{
+	background-color:#db565a !important;
+}
+
 
 @media screen and (min-width: 1000px){
 	.new-post{

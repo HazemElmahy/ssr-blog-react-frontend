@@ -4,17 +4,20 @@ import Post from '../components/Blog/Post'
 import ApprovalCard from '../components/Blog/ApprovalCard'
 import faker from 'faker'
 import PostFooter from '../components/Blog/PostFooter'
+import SearchBar from '../components/Blog/SearchBar'
 
-function About() {
+function Blog() {
     return (
 		<div>
 			
 			<div className='container'>
-				<Navbar />
+				<Navbar>
+					<SearchBar />
+				</Navbar>
 				<h1>Posts:</h1>
 				<div className='container posts' >
 					<li className='post new-post center'>
-						<button className='btn btn-large white'>
+						<button className='ui button large white'>
 							<img src="/plus-solid.svg" alt=""/>
 						</button>
 					</li>
@@ -45,4 +48,4 @@ function About() {
     )
 }
 
-export default About
+export default Blog
