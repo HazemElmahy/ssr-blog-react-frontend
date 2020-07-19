@@ -1,2 +1,2 @@
-Deployed to vercel
-https://ssr-react-django-rest-api-blog.vercel.app/
+Deployed to vercel for testing
+https://ssr-blog.vercel.app/
