@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar/Navbar'
 import Comment from '../components/Blog/Comment'
 import Post from '../components/Blog/Post'
 import ApprovalCard from '../components/Blog/ApprovalCard'
