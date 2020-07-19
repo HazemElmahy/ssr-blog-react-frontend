@@ -31,12 +31,14 @@ const Navbar = (props) =>{
         	</div>
 				
 				<ul className='bg-screen'> 
+				<div className='small-nav'>
 				<div class="ui buttons register">
   					<button class="ui black button">Sign up</button>
   					<div class="or"></div>
   					<button class="ui  button">Sign in</button>
 				</div>
-				<DropDown/>
+				<DropDown />
+				</div>
 				</ul>
 			<div className='separator'></div>
 				
